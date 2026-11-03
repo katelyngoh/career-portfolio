@@ -173,8 +173,7 @@ p { margin: 0 0 1em; }
 
 /* ---------- Track record (highlights) ---------- */
 
-.proof { background: var(--paper); border-bottom: 1px solid var(--line); padding: clamp(36px, 6vw, 64px) 0; }
-.proof .kicker { margin-bottom: 1.2em; font-family: var(--sans); line-height: 1.4; }
+.proof { background: var(--paper); padding: clamp(56px, 8vw, 96px) 0; }
 .proof-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(24px, 4vw, 56px); }
 .ledger + .ledger { border-left: 1px solid var(--line); padding-left: clamp(24px, 4vw, 56px); }
 .ledger-tag { text-transform: uppercase; letter-spacing: 0.14em; font-size: 0.72rem; font-weight: 700; color: var(--gold-ink); }
