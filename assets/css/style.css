@@ -298,14 +298,22 @@ p { margin: 0 0 1em; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 
 
-/* Mention Watch: funnel cover */
-.funnel { margin: 0; display: grid; gap: 12px; }
-.funnel div { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: baseline; }
-.funnel dt { font-weight: 600; font-size: 0.88rem; }
-.funnel dd { margin: 0; }
-.funnel .val { font-family: var(--serif); font-weight: 600; font-size: 1.3rem; color: var(--brown); line-height: 1; }
-.funnel .bar { grid-column: 1 / -1; background: var(--cream-2); border-radius: 999px; padding: 3px; }
-.funnel .bar i { display: block; height: 8px; min-width: 8px; border-radius: 999px; width: var(--w); background: var(--gold); }
+/* Stat list cover (Google Shopping) */
+.cover-stats { margin: 0; display: grid; gap: 0; }
+.cover-stats div { display: grid; grid-template-columns: 7.5rem 1fr; gap: 12px; align-items: baseline; padding: 10px 0; border-top: 1px solid var(--line); }
+.cover-stats div:first-child { border-top: 0; }
+.cover-stats dt { font-family: var(--serif); font-weight: 600; font-size: 1.45rem; line-height: 1.1; color: var(--brown); white-space: nowrap; }
+.cover-stats dd { margin: 0; font-size: 0.9rem; color: var(--ink-soft); }
+
+/* Forum thread illustration cover (Mention Watch) */
+.thread { display: grid; gap: 8px; }
+.thread p { margin: 0; background: var(--paper); border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; font-size: 0.88rem; line-height: 1.4; color: var(--ink); }
+.thread span { display: block; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 2px; }
+.thread .post { font-weight: 600; }
+.thread .reply { margin-left: 22px; }
+.thread .reply--muted { color: var(--ink-soft); background: var(--cream-2); }
+.thread .reply--draft { border-color: var(--gold); box-shadow: inset 3px 0 0 var(--gold); }
+.thread .reply--draft span { color: var(--gold-ink); }
 
 /* Case study subtitle + collapsible "How it's built" */
 .lede-sub { font-size: 1.1rem; color: var(--ink-soft); max-width: 62ch; margin: 0.2em 0 0; }

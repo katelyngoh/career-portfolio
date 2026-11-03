@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Launching Google Shopping | Katie Goh</title>
+  <meta name="description" content="Case study: taking GG Offroad from every product blocked to 1,380 approved Google Shopping listings in five weeks, at $0 ad spend.">
+  <link rel="canonical" href="https://katelyngoh.github.io/career-portfolio/google-shopping.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Launching Google Shopping: 0 to 1,380 Approved Listings in Five Weeks">
+  <meta property="og:description" content="GG Offroad case study by Katie Goh.">
+  <meta property="og:image" content="https://katelyngoh.github.io/career-portfolio/assets/img/social-preview.jpg">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Katie Goh, home">
+        <img src="assets/img/kg-mark.png" alt="" width="204" height="120">
+        <span>Katie Goh</span>
+      </a>
+      <nav aria-label="Main">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#work" aria-current="page">Work</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="page-head">
+      <div class="container narrow">
+        <p class="breadcrumb"><a href="index.html#work">← All work</a></p>
+        <h1>Launching Google Shopping: 0 to 1,380 Approved Listings in Five Weeks</h1>
+        <ul class="meta">
+          <li><b>Company:</b> GG Offroad (<a href="https://ggoffroad.com" rel="noopener">ggoffroad.com</a>)</li>
+          <li><b>Role:</b> Co-Founder, Ecommerce &amp; Growth Lead</li>
+          <li><b>Timeline:</b> Sept – Nov 2026</li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container narrow prose">
+        <h2 style="margin-top:0">At a Glance</h2>
+        <dl class="glance">
+          <div><dt>Challenge</dt><dd>Get a home-based Shopify brand selling niche truck parts into Google's free Shopping listings in 59 countries, with every product blocked on day one.</dd></div>
+          <div><dt>What I did</dt><dd>Fixed the account-level block, rebuilt the catalog for vehicle-specific search, priced shipping in 50+ local currencies from real checkout quotes, launched a promotion, and recovered from a misrepresentation flag.</dd></div>
+          <div><dt>Results</dt><dd>1,380 listings approved with 0 limited, 728 Google clicks in the latest 28 days (+174%), and Shopping clicks up from zero, at $0 ad spend.</dd></div>
+          <div><dt>Skills</dt><dd>Google Merchant Center, Shopify, product feed optimization, international shipping, technical SEO, Shopify GraphQL, AI-assisted operations</dd></div>
+        </dl>
+
+        <h2>Context</h2>
+        <ul>
+          <li>GG Offroad sells camera relocation kits for Toyota Tacoma and Tundra trucks. Search already drove about a third of sales, but none of the catalog appeared in Google Shopping.</li>
+          <li>We're a two-person, home-based business, so the account had to pass Google's identity and business verification without a storefront.</li>
+          <li>I ran the project with Claude as an operations partner: auditing the feed, editing products through the Shopify API, and working through Merchant Center diagnostics with me.</li>
+        </ul>
+
+        <h2>Unblocking the Account</h2>
+        <ul>
+          <li><strong>720 products disapproved, one root cause.</strong> Merchant Center had claimed the Shopify subdomain while the feed sent the custom domain. One settings fix cleared every product.</li>
+          <li>Removed a market that required a local business registration we couldn't obtain, which was holding every listing at "Limited."</li>
+          <li>Passed identity verification as a home-based business by keeping the legal name, address, and contact details identical across the site, policies, and Google.</li>
+        </ul>
+
+        <h2>Rebuilding the Catalog for Search</h2>
+        <ul>
+          <li><strong>One product per truck.</strong> Split the two flagship kits into separate Tacoma and Tundra products, so each landing page matches the exact truck a shopper searches for. 301 redirects kept existing links working.</li>
+          <li>Rewrote titles to lead with year and model ("2024+ Toyota Tacoma Digital Rearview Mirror…") and rewrote descriptions to cover every fitment term buyers use.</li>
+          <li>Corrected product categories on nine products, and found a hidden Google category field overriding the fix on five of them.</li>
+          <li>Filled structured attributes (fit type, vehicle type, cable shielding) and added custom labels by truck and product type for future reporting and bidding.</li>
+          <li>Fixed cross-links that sent Tundra shoppers to Tacoma kits, and updated image alt text to match each product.</li>
+        </ul>
+
+        <h2>Shipping in 50+ Currencies</h2>
+        <ul>
+          <li>Google blocked 233 products in 32 countries because shipping was listed in USD while prices showed in local currency.</li>
+          <li><strong>Priced from real quotes, not guesses.</strong> Ran test checkouts to get real FedEx quotes in each currency, then built flat-rate policies padded 20% so a listing never understates the checkout cost.</li>
+          <li>Kept local-currency checkout and prepaid duties through Shopify Managed Markets rather than forcing international buyers into USD.</li>
+          <li>When an app sync silently wiped the hand-built policies, I traced the cause, turned the sync off, and rebuilt them.</li>
+        </ul>
+
+        <h2>Promotion and Trust Signals</h2>
+        <ul>
+          <li>Rejected a free-shipping promotion after realizing it only changed what customers paid on one low-priced item, and launched a trackable GOOGLE10 offer instead.</li>
+          <li>Synced the return policy, set up Google Customer Reviews on the order confirmation page, and weighed paid review feeds and buy-now-pay-later options on cost versus likely return.</li>
+        </ul>
+
+        <h2>Recovering from a Misrepresentation Flag</h2>
+        <ul>
+          <li>Google flagged the account for misrepresentation after a burst of changes during its initial review.</li>
+          <li>Audited every place Google cross-checks (business name, address, policies, shipping, promotion), fixed the inconsistencies, then froze changes until the review passed. <strong>The account was reinstated.</strong></li>
+        </ul>
+
+        <h2>Results</h2>
+        <ul class="results">
+          <li><strong>720 → 0</strong>Disapproved products after the account-level fix</li>
+          <li><strong>1,380</strong>Listings approved, 0 limited, across 50+ countries</li>
+          <li><strong>+174%</strong>Google clicks in Merchant Center (728 in the latest 28 days)</li>
+          <li><strong>0 → 28</strong>Shopping listing clicks per 28 days, at $0 ad spend</li>
+        </ul>
+        <p>Two of the first three GOOGLE10 orders came through the new Tundra-specific kit page, an early sign that the product split is reaching shoppers the combined page missed.</p>
+
+        <h2>What I Learned</h2>
+        <ul>
+          <li><strong>Merchant Center rewards stability.</strong> Most of the problems came from making many correct changes at once during review, so I'd now stage changes after approval rather than before.</li>
+          <li><strong>Clicks aren't revenue yet.</strong> Merchant Center's click count rose faster than store sessions from Google, which held roughly flat. The listings are live and earning clicks; turning them into measurable revenue lift is the next phase.</li>
+        </ul>
+
+        <h2>What's Next</h2>
+        <ul>
+          <li>Add installed-on-truck and mirror-view photos, the biggest remaining listing-quality gap</li>
+          <li>Group reviews across the split products so star ratings show on every listing</li>
+          <li>Test a small Performance Max campaign, segmented by the truck and product-type labels already in the feed</li>
+        </ul>
+        <p class="note">Note: Click data is from Google Merchant Center and session data from Shopify Analytics, comparing the 36 days after launch with the 36 days before.</p>
+
+        <nav class="pager" aria-label="More work">
+          <a class="btn btn-outline" href="gg-offroad.html">← GG Offroad</a>
+          <a class="btn btn-primary" href="mention-watch.html">Next: Mention Watch →</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span data-year>2026</span> Katie Goh</span>
+      <ul>
+        <li><a href="mailto:goh.katelyn@gmail.com">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/katiegoh/" rel="noopener">LinkedIn</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script>document.querySelectorAll('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); });</script>
+</body>
+</html>
