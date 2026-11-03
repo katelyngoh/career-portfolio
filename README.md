@@ -2,7 +2,7 @@
 
 Personal career portfolio of Katie Goh, hosted free on GitHub Pages.
 
-**Live site:** https://katelyngoh.github.io (once Pages is turned on — see below)
+**Live site:** https://katelyngoh.github.io/career-portfolio/
 
 It's a plain HTML + CSS site. There's no build step, no framework, and nothing to install: every file you see is exactly what gets published.
 
@@ -27,7 +27,7 @@ It's a plain HTML + CSS site. There's no build step, no framework, and nothing t
 3. Set **Branch** to `main` and folder to `/ (root)`, then click **Save**.
 4. Wait 1–2 minutes and refresh. GitHub shows the live URL at the top of that page.
 
-For the site to live at `https://katelyngoh.github.io` (instead of `https://katelyngoh.github.io/github.io/`), the repository must be named **`katelyngoh.github.io`**. Rename it under **Settings → General → Repository name**.
+The site's address comes from the repository name: `katelyngoh/career-portfolio` publishes to `https://katelyngoh.github.io/career-portfolio/`. If you ever rename the repo, update the `https://katelyngoh.github.io/career-portfolio/` links in the `<head>` of each page and the `/career-portfolio/` paths in `404.html`.
 
 ## Making changes
 
@@ -56,4 +56,4 @@ then visit http://localhost:8000.
 
 ## Custom domain (optional, later)
 
-To use something like `katiegoh.com`: buy the domain, go to **Settings → Pages → Custom domain**, enter it, and follow GitHub's DNS instructions. Then update the `https://katelyngoh.github.io` links in the `<head>` of each page (the `canonical` and `og:` lines) to the new domain.
+To use something like `katiegoh.com`: buy the domain, go to **Settings → Pages → Custom domain**, enter it, and follow GitHub's DNS instructions. Then update the `https://katelyngoh.github.io/career-portfolio/` links in the `<head>` of each page (the `canonical` and `og:` lines) to the new domain, and change the `/career-portfolio/` paths in `404.html` back to `/`.
