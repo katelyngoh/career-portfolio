@@ -45,6 +45,8 @@ The site's address comes from the repository name: `katelyngoh/career-portfolio`
 
 **Swapping an image:** upload a new file into `assets/img/` with the *same file name* (GitHub: **Add file → Upload files**), and it replaces the old one everywhere.
 
+**After changing `assets/css/style.css`**, update the `?v=` date in the stylesheet link at the top of every `.html` file (e.g. `style.css?v=2026-11-03` → today's date). That makes visitors' browsers load the new styles right away instead of a saved old copy.
+
 **Header, nav and footer** are repeated at the top and bottom of each `.html` file. If you change a nav link, change it in every page.
 
 ## Previewing locally (optional)
