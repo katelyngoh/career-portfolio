@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mention Watch: An AI Listening Agent | Katie Goh</title>
+  <meta name="description" content="Case study: a Claude agent Katie Goh designed to find Toyota truck owners stuck in forum threads and draft fact-checked replies she reviews and posts herself.">
+  <link rel="canonical" href="https://katelyngoh.github.io/career-portfolio/mention-watch.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Catching Buying Decisions in Forum Threads with an AI Listening Agent">
+  <meta property="og:description" content="GG Offroad case study by Katie Goh.">
+  <meta property="og:image" content="https://katelyngoh.github.io/career-portfolio/assets/img/social-preview.jpg">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="index.html" aria-label="Katie Goh, home">
+        <img src="assets/img/kg-mark.png" alt="" width="204" height="120">
+        <span>Katie Goh</span>
+      </a>
+      <nav aria-label="Main">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#work" aria-current="page">Work</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="page-head">
+      <div class="container narrow">
+        <p class="breadcrumb"><a href="index.html#work">← All work</a></p>
+        <span class="kicker">Mention Watch</span>
+        <h1>Catching Buying Decisions in Forum Threads with an AI Listening Agent</h1>
+        <p class="lede-sub">A Claude agent I designed reads Toyota truck forums every weekday morning, finds owners stuck on a problem our wiring solves, and drafts a fact-checked reply. I review every draft and post replies myself, under my name.</p>
+        <ul class="meta">
+          <li><b>Company:</b> GG Offroad</li>
+          <li><b>Role:</b> Co-Founder, Ecommerce &amp; Growth Lead</li>
+          <li><b>Timeline:</b> Aug – Nov 2026</li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container narrow prose">
+        <h2 style="margin-top:0">At a Glance</h2>
+        <dl class="glance">
+          <div><dt>Challenge</dt><dd>Buyers decide in forum threads, often months before visiting our site, across about ten sources that mostly never name us. With two people running the company, nobody had two hours a morning to read them.</dd></div>
+          <div><dt>What I did</dt><dd>Designed a scheduled Claude agent that scans those sources every weekday, ranks threads by need, and drafts replies using only verified part numbers. I triage by hand and post every reply myself, with our relationship disclosed.</dd></div>
+          <div><dt>Results</dt><dd>A trusted, expert presence in the forums where most of our customers spend time before they buy: 257 relevant threads tracked over 41 unattended runs, plus a stuck paying customer, an error on our own product page, and two content angles surfaced.</dd></div>
+          <div><dt>Skills</dt><dd>Community marketing, voice of customer, SEO, content strategy, AI automation</dd></div>
+        </dl>
+
+        <h2>The Business Problem</h2>
+        <p><strong>The sale is decided in a forum thread, months before anyone visits the site.</strong></p>
+        <ul>
+          <li>GG Offroad makes OEM camera relocation wiring for Toyota trucks. When a topper or camper shell covers the bed, the factory digital rearview and bed-view cameras go dark, and the owner's next move is to post about it.</li>
+          <li>That post is the whole funnel. Someone asks whether a cap will kill their backup camera, three people answer confidently and wrongly, and the thread decides whether that owner buys a plug-in harness, a splice kit, or nothing at all.</li>
+          <li>The threads are scattered across about ten sources, most never mention the brand, and the ones that rank best in search are two or three years old.</li>
+          <li>By the time a thread surfaces on its own, it has usually been answered badly and closed.</li>
+        </ul>
+
+        <h2>Rules of Engagement</h2>
+        <p>Brands get rightly banned from enthusiast forums for dropping marketing copy into open questions. These rules are written into the agent's brief, and I hold every draft to them:</p>
+        <ul>
+          <li><strong>Nothing posts automatically.</strong> I read every draft, rewrite as needed, and post from my own account, signed as myself.</li>
+          <li><strong>Disclose the relationship.</strong> Every reply says that I co-founded GG Offroad.</li>
+          <li><strong>Answer the question first.</strong> Lead with the specific technical fact; mention the product softly, afterward, and only if it actually solves the problem. No emoji, no exclamation marks. A draft that reads as an ad is a failed draft.</li>
+          <li><strong>Never guess a part number.</strong> Replies may only cite part numbers verified in Toyota's own service documentation. If the answer needs one, the draft asks the owner for it instead.</li>
+        </ul>
+
+        <h2>How It Works</h2>
+        <ul>
+          <li><strong>Every weekday at 7 a.m.,</strong> the agent searches the forums it can reach from six angles, with no one needing to start it.</li>
+          <li><strong>It ranks each new thread</strong> by how stuck the owner is (or discards it), and drafts a reply grounded in 59 verified research documents.</li>
+          <li><strong>A short summary lands on my phone,</strong> and I triage the queue by hand each morning.</li>
+          <li><strong>It never re-reports a thread.</strong> Each run checks a shared tracker first, flags only what's new, and never overwrites a status I've set. Across 41 runs it hasn't repeated a single thread, which is why I still open the notification every morning.</li>
+        </ul>
+
+        <h2>What It Surfaced</h2>
+        <p>The replies are the smallest output. The bigger ones were insights for support, the product page, and positioning.</p>
+
+        <h3>A paying customer, stuck in public for three months</h3>
+        <p>He bought the harness, pulled the camera, and the part number printed on it matched nothing he could search. The sweep found the thread and the explanation together: Toyota files that camera position under two different prefixes, and most catalogues index only one. <strong>A support case nobody had filed, on a forum where future buyers are reading.</strong></p>
+
+        <h3>An error on our own product page</h3>
+        <p>The listing said 35 ft in the title and meta description and 26 ft in the kit contents: a nine-foot gap on a cable whose entire job is reaching from the headliner to the back of a cap. <strong>Caught by the sweep rather than by a return.</strong></p>
+
+        <h3>A competitor's weakness, in its own words</h3>
+        <p>A rival listing states that its kit requires cutting the factory camera harness and splicing. Toyota's own guidance says shielded wiring shouldn't be repaired, and the camera video pair is shielded. <strong>A comparison grounded entirely in documentation, with no marketing claim needed.</strong></p>
+
+        <h3>An objection to the whole product category</h3>
+        <p>A buyer in a cap maker's sponsor thread decided a relocation kit "looks like a lot of work," and nobody corrected him. He's wrong in a checkable way: the camera a cap blocks has no calibration procedure in Toyota's service information. <strong>The same objection our <a href="gg-offroad.html">install videos</a> are built to answer.</strong></p>
+
+        <h3>Unprompted word of mouth</h3>
+        <p>An owner recommended us in a thread we weren't in. He had his headliner down and a three-wire plug in his hand, and two of the nearby plugs are cameras on a 7–8 volt supply, not brake feeds, a detail nobody in the thread had raised. <strong>Being the most accurate voice in the thread is the brand.</strong></p>
+
+        <h2>Results</h2>
+        <ul class="results">
+          <li><strong>257</strong>Relevant threads tracked across about ten sources</li>
+          <li><strong>~10</strong>Forums and channels watched every weekday morning</li>
+          <li><strong>41</strong>Scheduled weekday runs, with no manual kickoff</li>
+          <li><strong>0</strong>Repeat alerts: a feed worth opening every morning</li>
+        </ul>
+        <p><strong>This is a brand and trust play first.</strong> Most of our customers pass through a forum thread at some point before they buy, so showing up there with the most accurate answer builds credibility where it counts, and helpful, disclosed replies on threads that rank in search are a lasting source of referral traffic. Along the way, the threads told us things no dashboard would: a customer who needed help, a product-page error, and two content gaps we didn't know we had.</p>
+
+        <div class="callout">
+          <h3 style="margin-top:0">Why It Matters for Ecommerce</h3>
+          <p>Community threads work like search results that never show up in analytics. A daily listening system turns them into support saves, product-page fixes, objection handling, and content briefs. It's the same feedback loop as reviews or post-purchase surveys, applied before the sale.</p>
+        </div>
+
+        <h2>What's Next</h2>
+        <ul>
+          <li><strong>Close the coverage gap.</strong> The two forums where the brand comes up most, plus Facebook groups, can't be read reliably by a 7 a.m. run. The fix is routing those sites' own watched-thread and group notifications into a mailbox the agent already reads.</li>
+          <li><strong>Measure the downstream effect.</strong> Track referral sessions and orders from forum domains in Shopify, add a "How did you hear about us?" question after purchase, and turn logged objections into product-page FAQs.</li>
+        </ul>
+
+        <details class="howbuilt">
+          <summary>How it's built</summary>
+          <p><strong>I designed and run this system; Claude writes and executes the code.</strong> My part is the brief, the editorial and accuracy rules, the tracking model, testing which sources the agent can reach, fixing the failures each run exposed, and reviewing every reply.</p>
+          <ul>
+            <li><strong>Memory lives in the tracker.</strong> Each scheduled run starts fresh, so the tracker page it publishes doubles as its memory: 257 thread records that serve as the dedupe list, the work queue, and the record of what I've handled. Five statuses are set only by me, and every run must leave them untouched.</li>
+            <li><strong>Coverage was mapped, not assumed.</strong> I tested each source and recorded the result with the date it was verified, so runs stop rediscovering the same limits. Four forums are covered fully; YouTube videos are logged without drafts; Reddit isn't yet worth the effort; Facebook and Instagram groups are out of reach.</li>
+            <li><strong>Built for nobody being awake.</strong> Every limit was found by a run breaking, then fixed in the spec, so an unattended run doesn't stall waiting for a human or fail at the last step.</li>
+          </ul>
+          <p>Building with AI, for me, means saying precisely what a system must do, what it must never do, and how I'll know which one happened, then keeping it honest once it runs without me. An automation that's allowed to guess in public is a liability with a schedule attached.</p>
+        </details>
+
+        <nav class="pager" aria-label="More work">
+          <a class="btn btn-outline" href="google-shopping.html">← Google Shopping</a>
+          <a class="btn btn-primary" href="shopify-collective.html">Next: Shopify Collective →</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© <span data-year>2026</span> Katie Goh</span>
+      <ul>
+        <li><a href="mailto:goh.katelyn@gmail.com">Email</a></li>
+        <li><a href="https://www.linkedin.com/in/katiegoh/" rel="noopener">LinkedIn</a></li>
+        <li><a href="resume.html">Resume</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script>document.querySelectorAll('[data-year]').forEach(function (el) { el.textContent = new Date().getFullYear(); });</script>
+</body>
+</html>
