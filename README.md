@@ -10,7 +10,7 @@ It's a plain HTML + CSS site. There's no build step, no framework, and nothing t
 
 | File | What it is |
 |---|---|
-| `index.html` | Home page: intro, stats, work cards, contact |
+| `index.html` | Home page: intro, track record, case study cards, about, contact |
 | `resume.html` | Resume (has a "Print / Save as PDF" button) |
 | `gg-offroad.html` | GG Offroad case study |
 | `behavioral-health-seo.html` | Healthgrades behavioral health SEO case study |
