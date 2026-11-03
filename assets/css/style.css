@@ -297,6 +297,28 @@ p { margin: 0 0 1em; }
 
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
 
+
+/* Mention Watch: funnel cover */
+.funnel { margin: 0; display: grid; gap: 12px; }
+.funnel div { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: baseline; }
+.funnel dt { font-weight: 600; font-size: 0.88rem; }
+.funnel dd { margin: 0; }
+.funnel .val { font-family: var(--serif); font-weight: 600; font-size: 1.3rem; color: var(--brown); line-height: 1; }
+.funnel .bar { grid-column: 1 / -1; background: var(--cream-2); border-radius: 999px; padding: 3px; }
+.funnel .bar i { display: block; height: 8px; min-width: 8px; border-radius: 999px; width: var(--w); background: var(--gold); }
+
+/* Case study subtitle + collapsible "How it's built" */
+.lede-sub { font-size: 1.1rem; color: var(--ink-soft); max-width: 62ch; margin: 0.2em 0 0; }
+.howbuilt { margin: 2.5em 0 0; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); padding: 0 22px; }
+.howbuilt summary {
+  cursor: pointer; list-style: none; padding: 18px 0; font-family: var(--serif); font-weight: 600;
+  font-size: 1.2rem; color: var(--brown-deep); display: flex; justify-content: space-between; align-items: center;
+}
+.howbuilt summary::-webkit-details-marker { display: none; }
+.howbuilt summary::after { content: "+"; font-family: var(--sans); font-size: 1.4rem; color: var(--gold-ink); }
+.howbuilt[open] summary::after { content: "−"; }
+.howbuilt[open] { padding-bottom: 8px; }
+
 /* ---------- Contact ---------- */
 
 .contact { background: var(--brown-deep); color: #f6efe4; text-align: center; }
