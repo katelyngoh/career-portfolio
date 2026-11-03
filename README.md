@@ -16,6 +16,7 @@ It's a plain HTML + CSS site. There's no build step, no framework, and nothing t
 | `behavioral-health-seo.html` | Healthgrades behavioral health SEO case study |
 | `google-shopping.html` | Google Shopping / Merchant Center launch case study |
 | `mention-watch.html` | Mention Watch (AI forum-listening agent) case study |
+| `shopify-collective.html` | Shopify Collective retail channel case study |
 | `syndicated-reviews.html` | Healthgrades syndicated reviews case study |
 | `404.html` | Shown when someone visits a page that doesn't exist |
 | `assets/css/style.css` | All colors, fonts, and layout for every page |
